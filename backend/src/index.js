@@ -4,13 +4,14 @@ const connectDB = require('./config/db');
 
 const PORT = process.env.PORT || 4000;
 
-connectDB()
-  .then(() => {
-    app.listen(PORT, () => {
-      console.log(`Backend running on port ${PORT}`);
-    });
-  })
-  .catch((err) => {
-    console.error('Failed to connect to DB', err);
-    process.exit(1);
+(async () => {
+  try {
+    await connectDB();
+    console.log('✓ MongoDB connected');
+  } catch (err) {
+    console.warn('⚠️  MongoDB unavailable - running in demo mode');
+  }
+  app.listen(PORT, () => {
+    console.log(`✓ Backend running on http://localhost:${PORT}`);
   });
+})();

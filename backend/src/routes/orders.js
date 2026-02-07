@@ -3,6 +3,7 @@ const router = express.Router();
 const Order = require('../models/Order');
 const Product = require('../models/Product');
 const shiprocket = require('../services/shiprocket');
+const auth = require('../middlewares/auth');
 
 // POST /api/orders - create order and call Shiprocket
 router.post('/', async (req, res, next) => {
@@ -48,6 +49,26 @@ router.get('/:id', async (req, res, next) => {
   try {
     const order = await Order.findById(req.params.id);
     if (!order) return res.status(404).json({ message: 'Not found' });
+    res.json(order);
+  } catch (err) { next(err); }
+});
+
+// GET /api/orders - admin list
+router.get('/', auth, async (req, res, next) => {
+  try {
+    const orders = await Order.find().sort({ createdAt: -1 });
+    res.json(orders);
+  } catch (err) { next(err); }
+});
+
+// PUT /api/orders/:id/status - update status (admin)
+router.put('/:id/status', auth, async (req, res, next) => {
+  try {
+    const { status } = req.body;
+    const order = await Order.findById(req.params.id);
+    if (!order) return res.status(404).json({ message: 'Not found' });
+    order.status = status;
+    await order.save();
     res.json(order);
   } catch (err) { next(err); }
 });
