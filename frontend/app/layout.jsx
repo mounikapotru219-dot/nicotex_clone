@@ -1,20 +1,18 @@
 import './globals.css'
-import React from 'react'
+import { Inter } from 'next/font/google'
+
+const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Nicotex Clone',
-  description: 'Smoking rehabilitation product',
+  title: 'Nicotex | Smokefree Life Starts Here',
+  description: 'Premium smoking rehabilitation products and support.',
 }
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body>
-        <header style={{ padding: 20, borderBottom: '1px solid #eee' }}>
-          <h1>Nicotex Clone</h1>
-        </header>
-        <main style={{ padding: 20 }}>{children}</main>
-        <footer style={{ padding: 20, borderTop: '1px solid #eee' }}>© Nicotex Clone</footer>
+    <html lang="en" className="scroll-smooth">
+      <body className={inter.className}>
+        {children}
       </body>
     </html>
   )
