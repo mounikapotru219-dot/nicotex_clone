@@ -14,7 +14,7 @@ export default function FrontendLayout({ children }) {
         <div className="flex flex-col min-h-screen">
             <Navbar />
             <CartDrawer />
-            <main className="flex-grow overflow-x-hidden">
+            <main className="flex-grow">
                 <AnimatePresence mode="popLayout">
                     <motion.div
                         key={pathname}
@@ -22,6 +22,7 @@ export default function FrontendLayout({ children }) {
                         animate={{ opacity: 1, x: 0 }}
                         exit={{ opacity: 0, x: -20 }}
                         transition={{ duration: 0.25, ease: "easeInOut" }}
+                        className="overflow-x-hidden"
                     >
                         {children}
                     </motion.div>
