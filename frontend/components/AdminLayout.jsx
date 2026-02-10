@@ -43,8 +43,7 @@ export default function AdminLayout({ children }) {
       <aside className="w-72 bg-gray-950 text-white flex flex-col fixed inset-y-0 left-0 z-50">
         <div className="p-8 border-b border-white/5">
           <div className="flex items-center gap-2">
-            <div className="w-8 h-8 bg-brand-600 rounded-lg flex items-center justify-center text-white font-bold text-lg">N</div>
-            <span className="text-xl font-bold tracking-tight">Nicotex Admin</span>
+            <img src="/images/logos/logo.jpeg" alt="MAR Mouth Chill Logo" className="h-10 w-auto" />
           </div>
         </div>
 

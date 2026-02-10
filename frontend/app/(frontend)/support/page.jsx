@@ -29,7 +29,7 @@ const FAQ_DATA = [
         answer: "Yes, this is often called 'Combination Therapy' and is clinically proven to be more effective for heavy smokers. One providing a steady base and the other for breakthrough cravings."
     },
     {
-        question: "How long should I use Nicotex products?",
+        question: "How long should I use Mar products?",
         answer: "The standard treatment cycle is usually 8-12 weeks, gradually reducing the dosage. However, every journey is unique, and our counselors can help you plan your specific timeline."
     }
 ]
@@ -133,7 +133,7 @@ export default function SupportPage() {
                     <ContactCard
                         icon={Mail}
                         title="Email Help"
-                        value="support@Nicotex.com"
+                        value="marufood44@gmail.com"
                         label="Official Channel"
                         sublabel="Response within 24 hours"
                         color="bg-medical-blue"

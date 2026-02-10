@@ -37,17 +37,17 @@ export default function LoginPage() {
         <div className="min-h-screen bg-white flex">
             {/* Left Side: Brand/Image Section */}
             <div className="hidden lg:flex lg:w-1/2 relative overflow-hidden bg-medical-blue">
-                <div className="absolute inset-0 z-10 bg-gradient-to-br from-medical-blue/80 via-medical-blue/40 to-transparent" />
+                {/* <div className="absolute inset-0 z-10 bg-gradient-to-br from-medical-blue/80 via-medical-blue/40 to-transparent" /> */}
                 <img
-                    src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?q=80&w=2040&auto=format&fit=crop"
-                    alt="Nicotex Journey"
+                src="/images/banners/Banner_Mar.png"
+                    // src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?q=80&w=2040&auto=format&fit=crop"
+                    alt="Mar Journey"
                     className="absolute inset-0 w-full h-full object-cover transition-transform duration-[10s] hover:scale-110"
                 />
 
-                <div className="relative z-20 flex flex-col justify-between p-16 w-full">
+                {/* <div className="relative z-20 flex flex-col justify-between p-16 w-full">
                     <Link href="/" className="flex items-center gap-2">
-                        <div className="w-12 h-12 bg-white rounded-2xl flex items-center justify-center text-brand-600 font-black text-2xl shadow-2xl">N</div>
-                        <span className="text-3xl font-black tracking-tight text-white">Nicotex</span>
+                        <img src="/images/logos/logo.jpeg" alt="Nicotex Logo" className="h-16 w-auto" />
                     </Link>
 
                     <div>
@@ -84,7 +84,7 @@ export default function LoginPage() {
                         <div className="h-1 w-1 rounded-full bg-white/30" />
                         <span>Privacy Policy</span>
                     </div>
-                </div>
+                </div> */}
             </div>
 
             {/* Right Side: Login Form */}
@@ -97,8 +97,7 @@ export default function LoginPage() {
                 >
                     <div className="lg:hidden mb-12">
                         <Link href="/" className="flex items-center gap-2">
-                            <div className="w-10 h-10 bg-brand-600 rounded-xl flex items-center justify-center text-white font-black text-xl shadow-lg">N</div>
-                            <span className="text-2xl font-black tracking-tight text-medical-blue">Nicotex</span>
+                            <img src="/images/logos/logo.jpeg" alt="Mar Logo" className="h-12 w-auto" />
                         </Link>
                     </div>
 

@@ -4,7 +4,7 @@ import React, { useEffect, useState } from 'react'
 import AdminLayout from '@/components/AdminLayout'
 import api from '@/lib/api'
 import { useRouter } from 'next/navigation'
-import { ArrowLeft, Package, IndianRupee, Hash, FileText, Tag, Image, Trash2, Save } from 'lucide-react'
+import { ArrowLeft, Package, IndianRupee, Hash, FileText, Tag, Image, Save } from 'lucide-react'
 import Link from 'next/link'
 
 export default function EditProduct({ params }) {
@@ -69,16 +69,7 @@ export default function EditProduct({ params }) {
     }
   }
 
-  const handleDelete = async () => {
-    if (!confirm('Are you sure you want to delete this product? This action cannot be undone.')) return
 
-    try {
-      await api.delete('/products/' + id)
-      router.push('/admin/products')
-    } catch (e) {
-      alert('Delete failed: ' + e.message)
-    }
-  }
 
   if (loading) {
     return (
@@ -125,7 +116,7 @@ export default function EditProduct({ params }) {
                     name="title"
                     value={formData.title}
                     onChange={handleChange}
-                    placeholder="e.g., Nicotex 2mg Mint Gum"
+                    placeholder="e.g., Mar 2mg Mint Gum"
                     required
                     className="w-full pl-12 pr-4 py-3 border border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-transparent"
                   />
@@ -291,14 +282,7 @@ export default function EditProduct({ params }) {
               </Link>
             </div>
 
-            <button
-              type="button"
-              onClick={handleDelete}
-              className="bg-red-50 text-red-600 px-6 py-3 rounded-xl font-bold hover:bg-red-100 transition-all flex items-center gap-2"
-            >
-              <Trash2 className="w-5 h-5" />
-              Delete Product
-            </button>
+
           </div>
         </form>
       </div>

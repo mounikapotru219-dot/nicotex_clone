@@ -24,7 +24,6 @@ export default function Navbar() {
     }, [pathname])
 
     const NAV_LINKS = [
-        { label: 'Products', href: '/products' },
         { label: 'Blogs', href: '/blogs' },
         { label: 'About Us', href: '/about' },
         { label: 'Support', href: '/support' },
@@ -46,8 +45,7 @@ export default function Navbar() {
                     <div className="flex justify-between items-center">
                         {/* Logo */}
                         <Link href="/" className="flex items-center gap-2 group transition-transform active:scale-95">
-                            <div className="w-10 h-10 bg-gradient-premium rounded-xl flex items-center justify-center text-white font-bold text-xl shadow-premium group-hover:rotate-6 transition-transform">N</div>
-                            <span className="text-2xl font-bold tracking-tight text-medical-blue">Nicotex</span>
+                            <img src="/images/logos/logo-1.png" alt="MAR Mouth Chill Logo" className="h-16 w-auto group-hover:scale-105 transition-transform" />
                         </Link>
 
                         {/* Desktop Nav */}

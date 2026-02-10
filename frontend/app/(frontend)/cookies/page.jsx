@@ -14,7 +14,7 @@ export default function CookiesPolicyPage() {
                 <section>
                     <h2 className="text-2xl font-bold text-medical-blue mb-4">1. Use of Cookies</h2>
                     <p>
-                        Nicotex ("we", "us", or "our") uses cookies on the Nicotex website (the "Service"). By using the Service, you consent to the use of cookies.
+                        Mar ("we", "us", or "our") uses cookies on the Mar website (the "Service"). By using the Service, you consent to the use of cookies.
                         Our Cookies Policy explains what cookies are, how we use cookies, how third-parties we may partner with may use cookies on the Service, your choices regarding cookies and further information about cookies.
                     </p>
                 </section>
@@ -27,7 +27,7 @@ export default function CookiesPolicyPage() {
                 </section>
 
                 <section>
-                    <h2 className="text-2xl font-bold text-medical-blue mb-4">3. How Nicotex Uses Cookies</h2>
+                    <h2 className="text-2xl font-bold text-medical-blue mb-4">3. How Mar Uses Cookies</h2>
                     <p className="mb-4">
                         When you use and access the Service, we may place a number of cookies files in your web browser. We use cookies for the following purposes:
                     </p>

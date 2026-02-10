@@ -133,7 +133,7 @@ export default function DashboardPage() {
           />
           <StatCard
             title="Total Products"
-            value={kpis.products}
+            value={1}
             icon={Package}
             color="bg-gradient-to-br from-orange-500 to-orange-600"
           />
@@ -170,11 +170,11 @@ export default function DashboardPage() {
           </div>
 
           <div className="bg-gradient-to-br from-medical-teal to-brand-500 rounded-2xl p-8 text-white">
-            <h3 className="text-lg font-bold mb-2 opacity-90">Conversion Rate</h3>
+            <h3 className="text-lg font-bold mb-2 opacity-90">Total Units Sold</h3>
             <p className="text-4xl font-black mb-4">
-              {kpis.products > 0 ? ((kpis.productsSold / kpis.products) * 100).toFixed(1) : 0}%
+              {kpis.productsSold}
             </p>
-            <p className="text-sm opacity-75">Products to sales ratio</p>
+            <p className="text-sm opacity-75">Units of product sold</p>
           </div>
         </div>
       </div>

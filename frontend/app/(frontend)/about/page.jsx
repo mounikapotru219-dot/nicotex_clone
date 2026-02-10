@@ -49,7 +49,7 @@ export default function AboutPage() {
                                 Empowering Lives to <span className="gradient-text">Quit for Good.</span>
                             </h1>
                             <p className="text-lg text-gray-500 leading-relaxed mb-8 font-medium max-w-lg">
-                                At Nicotex, we believe everyone deserves a second chance at a healthy life. Our mission is to provide science-backed tools to help you break free from smoking.
+                                At MAR, we believe everyone deserves a second chance at a healthy life. Our mission is to provide science-backed tools to help you break free from smoking.
                             </p>
                             <div className="flex gap-4">
                                 <button className="bg-brand-600 text-white px-8 py-3.5 rounded-xl font-black text-base shadow-xl shadow-brand-500/20 hover:bg-brand-700 transition-all">
@@ -120,7 +120,7 @@ export default function AboutPage() {
                         <ValueCard
                             icon={Shield}
                             title="Science-First Approach"
-                            desc="Every Nicotex product undergoes rigorous clinical testing and evaluation to ensure peak safety and effectiveness."
+                            desc="Every MAR product undergoes rigorous clinical testing and evaluation to ensure peak safety and effectiveness."
                         />
                         <ValueCard
                             icon={Heart}

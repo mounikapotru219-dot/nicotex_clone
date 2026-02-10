@@ -21,7 +21,7 @@ export default function ProductCard({ product }) {
     <motion.div
       className="bg-white rounded-3xl p-6 shadow-soft group border border-gray-100 flex flex-col h-full"
     >
-      <Link href={`/products/${product._id}`} className="block relative aspect-square mb-6 overflow-hidden rounded-2xl bg-white border border-gray-50 p-4">
+      <Link href="/product" className="block relative aspect-square mb-6 overflow-hidden rounded-2xl bg-white border border-gray-50 p-4">
         <img
           src={product.images?.[0] || 'https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?q=80&w=2060&auto=format&fit=crop'}
           alt={product.title}
@@ -48,7 +48,7 @@ export default function ProductCard({ product }) {
 
       <div className="flex gap-3 mt-auto">
         <Link
-          href={`/products/${product._id}`}
+          href="/product"
           className="flex-1 flex items-center justify-center border-2 border-gray-100 text-gray-500 py-3 rounded-xl font-bold text-xs uppercase tracking-widest hover:border-medical-blue hover:text-medical-blue transition-all"
         >
           View

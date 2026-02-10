@@ -36,11 +36,11 @@ export default function LoginPage() {
         animate={{ opacity: 1, y: 0 }}
         className="sm:mx-auto sm:w-full sm:max-w-md text-center"
       >
-        <div className="inline-flex items-center justify-center w-16 h-16 bg-brand-600 rounded-2xl shadow-premium mb-6">
-          <Shield className="w-8 h-8 text-white" />
+        <div className="inline-flex items-center justify-center mb-6">
+          <img src="/images/logos/logo.jpeg" alt="Mar Logo" className="h-16 w-auto" />
         </div>
         <h2 className="text-3xl font-black text-white tracking-tight">Admin Portal</h2>
-        <p className="mt-2 text-sm text-gray-500 font-medium">Secure access to Nicotex Management</p>
+        <p className="mt-2 text-sm text-gray-500 font-medium">Secure access to Mar Management</p>
       </motion.div>
 
       <motion.div

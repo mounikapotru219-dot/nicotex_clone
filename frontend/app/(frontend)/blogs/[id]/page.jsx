@@ -13,7 +13,7 @@ export default function BlogDetailPage() {
             {/* Article Header */}
             <header className="relative h-[400px] lg:h-[600px] overflow-hidden">
                 <img
-                    src="https://images.unsplash.com/photo-1527137341206-897bf973070b?q=80&w=2070&auto=format&fit=crop"
+                    src="https://images.unsplash.com/photo-1576091160550-217359f42f8c?q=80&w=2070&auto=format&fit=crop"
                     alt="Blog Header"
                     className="w-full h-full object-cover"
                 />
@@ -59,7 +59,7 @@ export default function BlogDetailPage() {
 
                         <div className="bg-brand-50 border-l-4 border-brand-500 p-8 rounded-r-2xl my-12">
                             <p className="text-brand-800 font-bold italic text-lg leading-relaxed">
-                                "Preparation is key. Ensure you have your Nicotex gums or patches ready before you start the clock."
+                                "Preparation is key. Ensure you have your Mar gums or patches ready before you start the clock."
                             </p>
                         </div>
 
@@ -98,7 +98,7 @@ export default function BlogDetailPage() {
                                     <div className="bg-white p-3 rounded-xl border border-gray-100 flex gap-3">
                                         <div className="w-12 h-12 bg-gray-50 rounded-lg" />
                                         <div className="text-xs">
-                                            <p className="font-bold">Nicotex Gum 2mg</p>
+                                            <p className="font-bold">Mar Gum 2mg</p>
                                             <p className="text-brand-600 mt-1">₹499</p>
                                         </div>
                                     </div>

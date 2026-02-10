@@ -14,7 +14,7 @@ export default function PrivacyPolicyPage() {
                 <section>
                     <h2 className="text-2xl font-bold text-medical-blue mb-4">1. Introduction</h2>
                     <p>
-                        Welcome to Nicotex. We value your trust and are committed to protecting your personal information.
+                        Welcome to Mar. We value your trust and are committed to protecting your personal information.
                         This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website.
                     </p>
                 </section>
@@ -57,7 +57,7 @@ export default function PrivacyPolicyPage() {
                 <section>
                     <h2 className="text-2xl font-bold text-medical-blue mb-4">5. Contact Us</h2>
                     <p>
-                        If you have questions or comments about this Privacy Policy, please contact us at: <a href="mailto:privacy@nicotex.com" className="text-brand-600 hover:underline font-bold">privacy@nicotex.com</a>
+                        If you have questions or comments about this Privacy Policy, please contact us at: <a href="mailto:privacy@mar.com" className="text-brand-600 hover:underline font-bold">privacy@mar.com</a>
                     </p>
                 </section>
             </div>

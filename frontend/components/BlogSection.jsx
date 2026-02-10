@@ -15,7 +15,7 @@ const MOCK_BLOGS = [
         author: 'Dr. Sarah Wilson',
         date: 'Oct 24, 2025',
         category: 'Medical Advice',
-        image: 'https://images.unsplash.com/photo-1527137341206-897bf973070b?q=80&w=2070&auto=format&fit=crop'
+        image: 'https://images.unsplash.com/photo-1576091160550-217359f42f8c?q=80&w=2070&auto=format&fit=crop'
     },
     {
         _id: '2',
@@ -24,7 +24,7 @@ const MOCK_BLOGS = [
         author: 'Medical Team',
         date: 'Oct 20, 2025',
         category: 'Lifestyle',
-        image: 'https://images.unsplash.com/photo-1576091160550-217359f4ecf8?q=80&w=2070&auto=format&fit=crop'
+        image: 'https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?q=80&w=2030&auto=format&fit=crop'
     },
     {
         _id: '3',

@@ -16,14 +16,17 @@ const seed = async () => {
     console.log('Admin user created: admin / admin123');
   }
 
-  // Create sample products
+  // Create sample product
   const count = await Product.countDocuments();
   if (count === 0) {
-    await Product.create([
-      { title: 'Nicotex Patch - 7mg', description: 'Helps reduce cravings.', price: 499, stock: 100, images: [] },
-      { title: 'Nicotex Gum - 2mg', description: 'Chewing gum to reduce nicotine dependency.', price: 299, stock: 200, images: [] },
-    ]);
-    console.log('Sample products created');
+    await Product.create({
+      title: 'MAR Mouth Chill Nicotine Gum 2mg',
+      description: 'Helps reduce cravings and supports your journey to quit smoking.',
+      price: 499,
+      stock: 100,
+      images: []
+    });
+    console.log('Sample product created');
   }
 
   console.log('Seeding done');

@@ -14,7 +14,7 @@ export default function TermsOfServicePage() {
                 <section>
                     <h2 className="text-2xl font-bold text-medical-blue mb-4">1. Agreement to Terms</h2>
                     <p>
-                        These Terms of Service constitute a legally binding agreement made between you, whether personally or on behalf of an entity (“you”) and Nicotex (“we,” “us” or “our”), concerning your access to and use of the Nicotex website as well as any other media form, media channel, mobile website or mobile application related, linked, or otherwise connected thereto (collectively, the “Site”).
+                        These Terms of Service constitute a legally binding agreement made between you, whether personally or on behalf of an entity (“you”) and Mar (“we,” “us” or “our”), concerning your access to and use of the Mar website as well as any other media form, media channel, mobile website or mobile application related, linked, or otherwise connected thereto (collectively, the “Site”).
                     </p>
                 </section>
 
@@ -22,7 +22,7 @@ export default function TermsOfServicePage() {
                     <h2 className="text-2xl font-bold text-medical-blue mb-4">2. Medical Disclaimer</h2>
                     <div className="bg-brand-50 border-l-4 border-brand-600 p-4 rounded-r-lg">
                         <p className="text-sm font-medium">
-                            The contents of the Nicotex Site, such as text, graphics, images, and other material contained on the Nicotex Site ("Content") are for informational purposes only. The Content is not intended to be a substitute for professional medical advice, diagnosis, or treatment. Always seek the advice of your physician or other qualified health provider with any questions you may have regarding a medical condition.
+                            The contents of the Mar Site, such as text, graphics, images, and other material contained on the Mar Site ("Content") are for informational purposes only. The Content is not intended to be a substitute for professional medical advice, diagnosis, or treatment. Always seek the advice of your physician or other qualified health provider with any questions you may have regarding a medical condition.
                         </p>
                     </div>
                 </section>
